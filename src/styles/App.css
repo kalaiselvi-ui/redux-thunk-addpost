@@ -1,18 +1,16 @@
 .custom-card {
   position: relative;
   margin-bottom: 20px;
-  /* box-shadow: 0px 5px 20px rgba(#000000, 0.1); */
 }
-.card-body {
+.custom-card .card-body {
   height: 200px;
 }
-.card-footer {
+.custom-card .card-footer {
   border: none;
   background-color: #f4f4f4;
 }
-
-.btn-edit,
-.btn-delete {
+.custom-card .btn-edit,
+.custom-card .btn-delete {
   opacity: 0;
   display: none;
   transition: all 10s;
@@ -21,17 +19,15 @@
   position: absolute;
   border-radius: 100%;
 }
-
-.btn-edit {
+.custom-card .btn-edit {
   left: -5%;
   top: -5%;
 }
-.btn-delete {
+.custom-card .btn-delete {
   right: -5%;
   top: -5%;
 }
-.custom-card:hover .btn-delete,
-.custom-card:hover .btn-edit {
+.custom-card:hover .btn-delete, .custom-card:hover .btn-edit {
   display: block;
   opacity: 1;
 }
@@ -39,4 +35,4 @@
 .btn {
   display: inline-flex;
   align-items: center;
-}
+}/*# sourceMappingURL=App.css.map */
